@@ -1,0 +1,12 @@
+[
+{
+    "filename": "two_sum.py",
+    "topic_path": "arrays",
+    "patterns": ["two_pointers"]
+},
+{
+    "filename": "reverse_list.py",
+    "topic_path": "linked_lists",
+    "patterns": ["iteration"]
+}
+]
