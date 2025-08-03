@@ -26,8 +26,12 @@ This repository is dedicated to solving Data Structures and Algorithms problems 
    
    ## 🚀 How to Run Tests
    ```bash
-   python -m unittest discover -s problems
+   pytest problems/
    ```
+
+   # Run tests manually
+  _problems.py  # Optional, generates symlinks
+  pytest problems/
    
    ## 🔄 CI Integration
    GitHub Actions automatically runs tests on push.
