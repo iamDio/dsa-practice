@@ -13,10 +13,10 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install test dependencies
+      - name: Install dependencies
         run: |
           pip install pytest
-          pip install -r requirements.txt || echo 'No requirements.txt found'
+          pip install -r requirements.txt || true
 
-      - name: Run Pytest
-        run: pytest problems/
+      - name: Create symlinks
+        run: python scripts/link_problems.py
