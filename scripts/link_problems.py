@@ -36,17 +36,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-├── scripts/metadata.json
-
-[
-{
-    "filename": "two_sum.py",
-    "topic_path": "arrays",
-    "patterns": ["two_pointers"]
-},
-{
-    "filename": "reverse_list.py",
-    "topic_path": "linked_lists",
-    "patterns": ["iteration"]
-}
-]
