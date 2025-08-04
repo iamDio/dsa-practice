@@ -160,5 +160,5 @@ function slidingWindowTemplate(array: number[]): number {
     }
     
     // TERMINATION CONDITION: Return accumulated result
-    re
+    return maxResult;  // Could be: minResult, window contents, etc.
 ```
