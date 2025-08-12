@@ -108,8 +108,8 @@ function fastSlowTemplate(array: number[], unwantedValue: number): number {
 ```
 
 ### Cross-Array Comparison
-```ts
 
+```ts
 function crossArrayTemplate(arr1: string, arr2: string): boolean {
     let i = 0;
     let j = 0;
